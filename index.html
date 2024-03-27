@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="leftsection">
+           <a href="index.html">Reyaz <span>Dhungana</span></a> 
+        </div>
+        <div class="rightsection">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="Aboutme.html">ABOUT ME</a></li>
+                <li><a href="Resume.html">RESUME</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <div class="main-body">
+        <div class="leftImage"></div>
+            <div class="rightContent">
+                <h1>Hello!!!</h1>
+                <h1>I'm <span>Reyaz Dhungana</span></h1>
+                <h1>I'm an  <span id="element" class="text"></span></h1>
+               <button class="skills"><a href="Resume.html">View My Resume↓</a></button>
+            </div>
+    </div>
+    <div class="mySkills">
+        <h1>My Skills</h1>
+        <hr style="width: 50%; height: 5px; margin-left: 25%; background-color: black;">
+        <h2>Here is a detailed graph of my Skills:</h2>
+        <div class="progressBar">
+            <div class="progress" ><div class="html"><span>50%</span></div></div>HTML
+            <div class="progress"><div class="css"><span>50%</span></div></div>CSS
+            <div class="progress"><div class="js"><span>40%</span></div></div>Javascript
+            <div class="progress"><div class="java"><span>40%</span></div></div>Java
+            <div class="progress"><div class="Wordpress"><span>60%</span></div></div>Wordpress
+            <div class="progress"><div class="C" ><span>60%</span></div></div>C
+        </div>
+    </div>
+      <h1 >My Projects</h1>
+      <hr style="width: 50%; height: 5px; margin-left: 25%; background-color: black;">
+      <h2>Here is the Images of My projects:</h2>
+      <h2>Project Title:<h2 id="projectName">Foodie Delight- A Resturant Website</h2></h2>
+    <div class="myProjects">
+        <button class="left" onclick="changeImage(0)"><</button>
+        <div class="carousel">
+            <img id="Image" src="/Assets/FoodieDelight.png" alt="" width="100%" height="100%" style="object-fit: contain;"></div>
+        <button class="right" onclick="changeImage(1)">></button>
+    </div>
+     <footer class="foot">
+        <div class="name">Reyaz Dhungana <br>@All Rights Reserved</div>
+        <hr>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Resume</a></li>                
+                <li><a href="#">Contact Me</a></Contact></li>                
+
+            </ul>
+        </div>
+        <hr >
+        <div class="Icons">
+        </div>
+     </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="main.js">
+    </script>
+</body>
+</html>

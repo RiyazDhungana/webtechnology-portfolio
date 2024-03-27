@@ -1,0 +1,230 @@
+.main-body {
+  margin-top: 80px;
+  width: 100%;
+  height: 500px;
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+.main-body .rightContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+}
+.leftImage {
+  margin-top: 60px;
+  display: flex;
+  width: 35%;
+  height: 80%;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 50%;
+  background: url(/Assets/me.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: none;
+}
+
+.rightContent .skills {
+  margin-top: 10px;
+  width: 200px;
+  height: 60px;
+  border-radius: 50px;
+  background-color: blueviolet;
+  font-size: 15px;
+  animation: bgbreathe 10s infinite;
+}
+.rightContent .skills a {
+  text-decoration: none;
+  color: black;
+}
+.rightContent h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+.rightContent .text {
+  transition: 0.5s ease-in-out;
+  animation: breathing 10s infinite;
+}
+.mySkills {
+  margin-bottom: 150px;
+  margin-top: 100px;
+  width: 100%;
+  height: 550px;
+  background-color: white;
+}
+.mySkills h1 {
+  text-align: center;
+}
+.progressBar {
+  width: 80%;
+  height: 400px;
+  margin-left: 10%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.progress {
+  background-color: skyblue;
+  border-radius: 30px;
+  width: 80%;
+  color: white;
+  height: 30px;
+}
+
+.progress div {
+  border-radius: 30px;
+  height: 30px;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+.progress div span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.progress .html {
+  background-color: blueviolet;
+  animation: move 8s forwards infinite;
+}
+
+@keyframes move {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 50%;
+  }
+}
+.progress .css {
+  background-color: chocolate;
+  animation: move 8s forwards infinite;
+}
+@keyframes move1 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 40%;
+  }
+}
+@keyframes move3 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 60%;
+  }
+}
+.progress .js {
+  background-color: lawngreen;
+  animation: move1 8s forwards infinite;
+}
+.progress .java {
+  background-color: darkblue;
+  animation: move1 8s forwards infinite;
+}
+.progress .Wordpress {
+  background-color: lightslategray;
+  animation: move3 8s forwards infinite;
+}
+.progress .C {
+  background-color: black;
+  animation: move3 8s forwards infinite;
+}
+.myProjects {
+  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.myProjects .left {
+  background: transparent;
+  width: 50px;
+  height: 50px;
+  margin: auto 0;
+}
+#video {
+  transition: 2s ease-in-out;
+}
+.myProjects .carousel {
+  margin-top: 60px;
+  width: 100%;
+  height: 100%;
+}
+.myProjects .right {
+  background: transparent;
+  width: 50px;
+  height: 50px;
+  margin: auto 0;
+}
+footer {
+  margin-top: 100px;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  height: 150px;
+  background-color: black;
+}
+footer hr {
+  margin-left: -50px;
+  height: 80%;
+  margin-top: 20px;
+  background-color: white;
+  width: 2px;
+}
+footer .name {
+  margin-left: 30px;
+  font-size: 15px;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .menu {
+  width: 10%;
+  height: 100%;
+}
+footer .menu ul li {
+  margin-top: 8px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+footer ul li a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+footer .Icons {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer .Icons .img {
+  width: 20px;
+  height: 20px;
+}
