@@ -23,7 +23,7 @@
   align-items: center;
   border: 2px solid white;
   border-radius: 50%;
-  background: url(/Assets/me.jpg);
+  background: url(me.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -176,55 +176,4 @@ h2 {
   width: 50px;
   height: 50px;
   margin: auto 0;
-}
-footer {
-  margin-top: 100px;
-  bottom: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  color: white;
-  height: 150px;
-  background-color: black;
-}
-footer hr {
-  margin-left: -50px;
-  height: 80%;
-  margin-top: 20px;
-  background-color: white;
-  width: 2px;
-}
-footer .name {
-  margin-left: 30px;
-  font-size: 15px;
-  width: 20%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-footer .menu {
-  width: 10%;
-  height: 100%;
-}
-footer .menu ul li {
-  margin-top: 8px;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-footer ul li a {
-  text-decoration: none;
-  color: white;
-  cursor: pointer;
-}
-footer .Icons {
-  width: 20%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.footer .Icons .img {
-  width: 20px;
-  height: 20px;
 }
